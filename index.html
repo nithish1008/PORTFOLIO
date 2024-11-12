@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Graphic Design Portfolio</title>
+    <style>
+        /* Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: #D53F8C;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #111;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            font-family: 'Playfair Display', serif;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #bbb;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        header nav ul li a:hover {
+            background-color: #D53F8C;
+        }
+
+        /* About Section */
+        #about {
+            background: #ffffff;
+            color: #333;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #777;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        #about img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 80px 20px;
+            text-align: center;
+            background-color: #fafafa;
+        }
+
+        #projects h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .projects-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .project-card {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-info {
+            padding: 20px;
+            background-color: white;
+            text-align: left;
+        }
+
+        .project-info h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 15px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .project-info p {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 300;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #111;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        #contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #contact ul li {
+            margin-bottom: 15px;
+        }
+
+        #contact a {
+            color: #D53F8C;
+            font-weight: 500;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        #contact a:hover {
+            color: white;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer p {
+            font-size: 1rem;
+            color: #bbb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Nithishvar</h1>
+        <h2>Graphic Designer | Computer Vision Engineer</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="c:\Users\dheet\OneDrive\Desktop\NITH PORTFOLIO\IMG_8238.jpeg" alt="Profile Picture">
+        <h2>About Me</h2>
+        <p>Hello!, I’m Nithishvar, I"m passionate about design, especially in the fields of UI/UX and graphic design. I actively work with tools like Figma to create intuitive and visually appealing interfaces, ensuring the user experience is seamless and impactful.
+            In addition to my design interests, I am dedicated to learning new technologies and applying them to real-world projects. I’ve explored different design methodologies and am always striving to improve my skills to bridge the gap between functionality and aesthetics.
+            I’m always eager to take on new challenges and collaborate on projects that combine technology and design to create meaningful solutions.
+            </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="c:\Users\dheet\OneDrive\Desktop\DHEE PORTFLIO\Botique.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Brand Identity Design</h3>
+                    <p>A complete branding package for a local boutique. Including logo, business cards, and digital media.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="c:\Users\dheet\OneDrive\Desktop\DHEE PORTFLIO\magazine design.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Magazine Layout Design</h3>
+                    <p>Designing the layout and typography for a national magazine, focusing on modern aesthetics.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="c:\Users\dheet\OneDrive\Desktop\DHEE PORTFLIO\UI UX.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Web UI/UX Design</h3>
+                    <p>UI/UX design for a mobile application focused on improving user experience and interface.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>Email: <a href="mailto:dheetshsathish2506@gmail.com">nithishz0804@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/dheetsha-sathish" target="_blank">Nithish'</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Nithishvar. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
